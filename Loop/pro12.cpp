@@ -8,8 +8,7 @@ int main()
     cout<<"enter any number :";
     cin>>n;
 
-    while(i<25
-    n)
+    while(i<n)
     {
         cout<<i<<endl;
         i++;
