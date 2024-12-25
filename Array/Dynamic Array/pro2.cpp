@@ -15,9 +15,6 @@ void maxnum(int arr[],int n)
     }
     cout<<"max value is :"<<max<<endl;
 }
-
-
-
 int main()
 {
     int n;
