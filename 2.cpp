@@ -10,7 +10,7 @@ int main()
     bool b=true;
 
     cout << "enter a num:" ;
-    cin >> x;
+    cin >> x; 
 
     cout << "enter character :";
     cin >> a;

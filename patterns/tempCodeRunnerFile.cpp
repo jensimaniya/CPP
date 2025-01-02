@@ -1,1 +1,0 @@
-peramind(n);
