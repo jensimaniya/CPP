@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include<algorithm>
 using namespace std;
 
 int main(){
@@ -11,10 +12,28 @@ int main(){
         cout << arr[i] << endl;
     }
 cout << endl;
+
+
        arr.pop_back();
+      
+
     for (int i=0;i<arr.size();i++){
       
         cout << arr[i] << endl;
     }
+
+     sort(arr.begin(),arr.end());
+     for (int i=0;i<arr.size();i++){
+      
+        cout << arr[i] << endl;
+    }
+    cout<<endl;
+
+   reverse(arr.begin(),arr.end());
+     for (int i=0;i<arr.size();i++){
+      
+        cout << arr[i] << endl;
+    }
+
     return 0;
 }
