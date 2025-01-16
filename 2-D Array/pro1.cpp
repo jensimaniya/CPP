@@ -30,13 +30,13 @@ int main()
         cout<<endl;
 
             for(int i=0; i<row; i++)
-        {
-            for(int j=0; j<col; j++)
             {
-                cout<<matrix[j][i]<<" ";
-            }
+                for(int j=0; j<col; j++)
+                    {
+                        cout<<matrix[j][i]<<" ";
+                    }
             cout<<endl;
-        }
+            }
         cout<<endl;
 
         for(int i=row-1; i>=0; i--)
