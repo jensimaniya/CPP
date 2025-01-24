@@ -15,21 +15,13 @@ void Pattern2(vector<vector<int>> matrix, int rows, int cols) {
     }
   }
 
-  for(int i=rows-2; i>=0; i-- )
-  {
-    cout<<matrix[i][rows-1]<<" "<<endl;
+  for (int i = rows - 2; i >= 0; i--) {
+    cout << matrix[i][rows - 1] << " " << endl;
   }
-
-
-
-
 }
 
 int main() {
-  vector<vector<int>> matrix = {
-    {10, 20, 30}, 
-    {40, 50, 60}, 
-    {70, 80, 90}};
+  vector<vector<int>> matrix = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
 
   int row = matrix.size();
   int col = matrix[0].size();

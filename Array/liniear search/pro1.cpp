@@ -14,7 +14,7 @@ int findvalue (int arr[],int n, int target)
 int main()
 {
     int marks[5]={10,8,5,9,1};
-    int result=findvalue(marks,5,1);
+    int result=findvalue(marks,5,9);
 
     cout<<result<<endl;
     return 0;
