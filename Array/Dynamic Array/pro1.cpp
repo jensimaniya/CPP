@@ -1,13 +1,13 @@
 #include<iostream>
 using namespace std;
 
-void printnum (int arr[],int n)
-{
-    for(int i=0; i<n; i++)
-    {
-        cout<<arr[i]<<endl;
-    }
-}
+// void printnum (int arr[],int n)
+// {
+//     for(int i=0; i<n; i++)
+//     {
+//         cout<<arr[i]<<endl;
+//     }
+// }
 
 int main()
 {
@@ -22,7 +22,11 @@ int main()
         cout<<"enter the value of index :"<<i<<endl;
         cin>>arr[i];
     }
-    printnum(arr,n);
+
+    for (int i = 0; i < n; i++) {
+      cout << arr[i] << endl;
+    }
+    // printnum(arr,n);
 
     
 

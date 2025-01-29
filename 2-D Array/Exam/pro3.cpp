@@ -11,7 +11,7 @@ void ReverceN(vector<vector<int>> array, int m, int n) {
       for (int j = n - 2; j > 0; j--) {
 
         if (i == j) {
-          cout << array[i][j] << " " << endl ;
+          cout << array[i][j] << " " << endl;
         }
       }
     }
