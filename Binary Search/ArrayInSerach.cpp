@@ -9,9 +9,12 @@ int BinarySearch(vector<int> arr, int t) {
     int mid = (start + end) / 2;
     if (arr[mid] == t) {
       return mid;
-    } else if (arr[mid] > t) {
+    } 
+    else if (arr[mid] > t) 
+    {
       end = mid - 1;
-    } else {
+    } else 
+    {
       start = mid + 1;
     }
   }
