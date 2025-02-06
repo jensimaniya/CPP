@@ -21,7 +21,9 @@ void Pattern1(vector<vector<int>> matrix, int rows, int cols) {
 }
 
 int main() {
-  vector<vector<int>> matrix = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
+  vector<vector<int>> matrix = {{10, 20, 30}, 
+                                {40, 50, 60}, 
+                                {70, 80, 90}};
 
   int row = matrix.size();
   int col = matrix[0].size();

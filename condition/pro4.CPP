@@ -7,12 +7,9 @@ int main()
     cout<<"enter any number :";
     cin>>n;
 
-    for(int i=0; i<n; i++)
-    {
-        if(n%12==0)
-        {
-            cout<<"your number is :"<< i*n <<endl;
-        }
+    for (int i = 1; i <= 10; i++) {
+      if (n % 12 == 0) {
+        cout << n << " "<<i << " "<< i * n << endl;
+      }
     }
-     
 }
