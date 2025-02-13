@@ -30,6 +30,19 @@ int main()
         cout<<"enter the value of array :";
         cin>>arr[i];
     }
+    cout << "[";
+
+    for (int i = 0; i < n; i++) {
+       
+
+      cout << arr[i]<<" ";
+      
+    }
+
+        cout << "]+-";
+
+
+    cout<<endl;
 
     minnum(arr,n);
 

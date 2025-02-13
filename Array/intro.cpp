@@ -6,7 +6,7 @@ int main() {
   int age[3] = {24, 22, 19};
 
   for (int i = 0; i < 3; i++) {
-    cout << "name is :" << "["<<name[i]<<"]" << endl
+    cout << "name is :" <<name[i] << endl
          << "marks is :" << marks[i] << endl
          << "age is :" << age[i] << endl;
   }

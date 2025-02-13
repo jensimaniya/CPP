@@ -10,7 +10,10 @@ public:
     this->a = a;
     this->b = b;
   }
-  int sum() { return this->a + this->b; }
+  int sum() 
+  { 
+    return this->a + this->b; 
+  }
 };
 
 int main() {

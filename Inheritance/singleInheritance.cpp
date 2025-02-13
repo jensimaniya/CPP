@@ -10,7 +10,10 @@ public:
     this->a = a;
     this->b = b;
   }
-  int sum() { return this->a + this->b; }
+  int sum() 
+  { 
+    return this->a + this->b; 
+  }
 };
 
 class AddSub : public Add {
@@ -24,7 +27,10 @@ public:
     this->d = d;
   }
 
-  int sub() { return c - d; }
+  int sub() 
+  { 
+    return c - d; 
+  }
 };
 
 int main() {

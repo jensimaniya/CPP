@@ -2,7 +2,9 @@
 #include <vector>
 using namespace std;
 int main() {
-  vector<vector<int>> array = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+  vector<vector<int>> array = {{1, 2, 3}, 
+                               {4, 5, 6}, 
+                               {7, 8, 9}};
 
   int rows = array.size();
   cout << "rows : " << rows << endl;

@@ -3,7 +3,7 @@ using namespace std;
 
 void maxnum(int arr[],int n)
 {
-    int max=arr[0];
+    int max=arr[0]                ;
     // or
     // int max=0
     for(int i=0; i<n; i++)
