@@ -18,7 +18,7 @@ int main() {
 
   for (int i = 0; i < arr.size(); i++) {
 
-    cout << arr[i] << endl;
+    cout << arr[i] << endl; 
   }
 
   sort(arr.begin(), arr.end());

@@ -32,6 +32,7 @@ public:
   ADDMUL(int a, int b, int c, int d) : ADD(a, b), ADDSUB(c, d) {}
 
   int mul() { return sum() * sub(); }
+  
 };
 
 int main() {
@@ -41,5 +42,7 @@ int main() {
   cout << "Sum : " << nidhi.sum() << endl;
   cout << "Sub : " << nidhi.sub() << endl;
   cout << "Mul : " << nidhi.mul() << endl;
+  cout << "a : " << nidhi.a << endl;
+
   return 0;
 }
