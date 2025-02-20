@@ -30,7 +30,7 @@ int main() {
     cout << arr[i] << " ";
   }
 
-  cout << "]+-";
+  cout << "]";
 
   cout << endl;
 

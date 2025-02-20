@@ -29,20 +29,23 @@ public:
 
 class ADDMUL : public ADDSUB, public ADD {
 public:
-  ADDMUL(int a, int b, int c, int d) : ADD(a, b), ADDSUB(c, d) {}
+  ADDMUL(int a, int b, int c, int d) : ADD(a, b), ADDSUB(c, d) {
+    // this->a = a;
+    // this->b = b;
+    // this->c = c;
+    // this->d = d;
+  }
 
   int mul() { return sum() * sub(); }
-  
 };
 
 int main() {
 
-  ADDMUL nidhi(11, 12, 20, 10);
+  ADDMUL multiple(11, 12, 20, 10);
 
-  cout << "Sum : " << nidhi.sum() << endl;
-  cout << "Sub : " << nidhi.sub() << endl;
-  cout << "Mul : " << nidhi.mul() << endl;
-  cout << "a : " << nidhi.a << endl;
+  cout << "Sum : " << multiple.sum() << endl;
+  cout << "Sub : " << multiple.sub() << endl;
+  cout << "Mul : " << multiple.mul() << endl;
 
   return 0;
 }

@@ -7,7 +7,7 @@ using namespace std;
 
 void printSubArray(vector<int> subArray) {
   for (int i = 0; i < subArray.size(); i++) {
-    cout << subArray[i];
+    cout << subArray[i];  
   }
   cout << endl;
 }

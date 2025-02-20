@@ -8,7 +8,7 @@ int main()
     cin>>n;
 
     for (int i = 1; i <= 10; i++) {
-      if (n % 12 == 0) {
+      if (n %   2 == 0) {
         cout << n << " "<<i << " "<< i * n << endl;
       }
     }
