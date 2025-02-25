@@ -26,7 +26,7 @@ int main() {
   vector<int> arr2 = {4, 9, 12, 15, 40, 60, 70, 80};
   vector<int> result = merge(arr, arr2);
   for (int val : result) {
-    cout << val << " " << endl;
+    cout << val << " " ;
   }
 
   return 0;
