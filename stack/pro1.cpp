@@ -1,20 +1,16 @@
-#include<iostream>
-#include<stack>
+#include <iostream>
+#include <stack>
 using namespace std;
-int main()
-{
-    stack<int>stk;
+int main() {
+  stack<int> stk;
 
-    stk.push(10);
-    stk.push(20);
-    stk.push(30);
+  stk.push(10);
+  stk.push(20);
+  stk.push(30);
 
+  cout << stk.top() << endl;
+  cout << stk.size() << endl;
+  cout << stk.empty() << endl;
 
-    cout<<stk.top()<<endl;
-    cout<<stk.size()<<endl;
-    cout<<stk.empty()<<endl;
-
-    
-    return 0;
-
+  return 0;
 }
