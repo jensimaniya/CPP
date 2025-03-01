@@ -17,6 +17,7 @@ int main() {
   Add add(1, 2);
 
   cout << add.sum() << endl;
+  
 
   return 0;
 }
