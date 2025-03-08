@@ -19,7 +19,9 @@ void maxIneachRow(vector<vector<int>> array, int rows, int cols) {
 }
 
 int main() {
-  vector<vector<int>> array = {{1, 5, 3}, {7, 2, 8}, {4, 9, 6}};
+  vector<vector<int>> array = {{1, 5, 3}, 
+                               {7, 2, 8}, 
+                               {4, 9, 6}};
 
   int row = array.size();
   int col = array[0].size();

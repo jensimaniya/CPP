@@ -17,9 +17,7 @@ void pattern3(vector<vector<int>> matrix, int m, int n) {
 }
 
 int main() {
-  vector<vector<int>> matrix = {{10, 20, 30}, 
-                                {40, 50, 60}, 
-                                {70, 80, 90}};
+  vector<vector<int>> matrix = {{10, 20, 30}, {40, 50, 60}, {70, 80, 90}};
 
   int rows = matrix.size();
   cout << rows << " ";
