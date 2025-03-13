@@ -22,7 +22,7 @@ int nearestValue(vector<int> arr, int t, int i, int j) {
 int main() {
   vector<int> arr = {6, 7, 20, 30, 40, 100};
 
-  int result = nearestValue(arr,35, 0, arr.size() - 1);
+  int result = nearestValue(arr,45, 0, arr.size() - 1);
   cout<<arr[result]<<endl;
 
   return 0;
