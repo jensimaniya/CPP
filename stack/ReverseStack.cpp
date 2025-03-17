@@ -20,15 +20,15 @@ void print(stack<int> s) {
   }
 }
 
-void reverse(stack<int> &s) {
-  if (s.empty()) {
-    return;
-  }
-  int top = s.top();
-  s.pop();
-  reverse(s);
-  insertAtBottom(s, top);
-}
+// void reverse(stack<int> &s) {
+//   if (s.empty()) {
+//     return;
+//   }
+//   int top = s.top();
+//   s.pop();
+//   reverse(s);
+//   insertAtBottom(s, top);
+// }
 
 int main() {
   stack<int> s;
@@ -41,7 +41,7 @@ int main() {
   print(s);
 cout<<"---------"<<endl;
   
-  reverse(s);
+  // reverse(s);
   print(s);
   return 0;
 }
