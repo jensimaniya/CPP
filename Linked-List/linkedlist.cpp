@@ -53,6 +53,37 @@ public:
     temp->next=nullptr;
   }
 
+  void insertAtPosition(int value,int position){
+    if (position <= 1) {
+      this->insertAthead(value);
+      return;
+    }
+    int size=this->length();
+    if (position >= size) {
+      this->insertAtTail(value);
+       return;
+    }
+    Node *newNode=new Node(value);
+    int i=1;
+    Node *temp=head;
+    while (i < position - 1) {
+      temp=temp->next;
+      i++;
+    }
+    newNode->next=temp->next;
+    temp->next=newNode;
+  }
+
+  int length(){
+    int count=0;
+    Node *temp=head;
+    while(temp){
+      count++;
+      temp=temp->next;
+    }
+    return count;
+  }
+
   void PrintList() {
     Node *temp = head;
     while (temp) {
@@ -80,6 +111,14 @@ int main() {
   list->removeAtTail();
   cout<<endl;
   list->PrintList();
+  cout<<endl;
+
+  list->insertAtPosition(100, 300);
+  list->PrintList();
+
+  cout<<endl;
+
+  cout<<list->length()<<endl;
 
   return 0;
 }
