@@ -16,7 +16,8 @@ int main() {
     for (int j = 0; j < cols; j++) {
       cout << "enter number :"
            << "[" << i << "][" << j << "] :";
-      cin >> array[i][j];
+      cin 
+      >> array[i][j];
     }
   }
 

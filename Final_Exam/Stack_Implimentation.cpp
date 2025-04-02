@@ -12,7 +12,6 @@ public:
     arr = new int[n];
     index = -1;
   }
-
   void stackpush(int value) {
     if (index < size - 1) {
       arr[++index] = value;
@@ -24,8 +23,8 @@ public:
 
   void pop() {
     if (index != -1) {
-      cout << "Popped value: " << arr[index] << endl; 
-      --index; 
+      cout << "Popped value: " << arr[index] << endl;
+      --index;
     } else {
       cout << "Stack is empty" << endl;
     }
@@ -33,13 +32,11 @@ public:
 
   void print() {
     for (int i = 0; i < index + 1; i++) {
-      cout <<"value is :"<< arr[i] << endl;
+      cout << "value is :" << arr[i] << endl;
     }
   }
 
-  int sizeL() { 
-    return index + 1; 
-  }
+  int sizeL() { return index + 1; }
 };
 
 int main() {
@@ -54,9 +51,9 @@ int main() {
   S.pop(); // Pops value 40
   S.pop(); // Pops value 30
 
-  S.print(); //stack print karva mate
+  S.print(); // stack print karva mate
 
- cout<<"stack size is :"<< S.sizeL();
+  cout << "stack size is :" << S.sizeL();
 
   return 0;
 }

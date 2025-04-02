@@ -24,7 +24,7 @@ vector<int> merge(vector<int> arr1, vector<int> arr2) {
 int main() {
   vector<int> arr = {3, 5, 10, 20, 50};
   vector<int> arr2 = {4, 9, 12, 15, 40, 60, 70, 80};
-  vector<int> result = merge(arr, arr2);
+  vector<int> result = merge(arr, arr2); 
   for (int val : result) {
     cout << val << " " ;
   }
